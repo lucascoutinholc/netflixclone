@@ -421,12 +421,12 @@ img, video {
   }
 
   .links-section p:first-child {
-    left: 2.8rem;
+    left: 2.6rem;
   }
 
   .links-section p:last-child {
     font-size: 0.8rem;
-    left: 2.8rem;
+    left: 2.6rem;
   }
 }
 
@@ -478,11 +478,11 @@ img, video {
   }
 
   .links-section p:first-child {
-    left: 3.3rem;
+    left: 2.9rem;
   }
 
   .links-section p:last-child {
     font-size: 0.9rem;
-    left: 3.3rem;
+    left: 2.9rem;
   }
 }
