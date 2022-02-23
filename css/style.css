@@ -486,3 +486,193 @@ img, video {
     left: 2.9rem;
   }
 }
+
+@media only screen and (min-width: 768px) {
+  header {
+    padding: 0.8rem 3rem 0 2.2rem;
+  }
+
+  h1 {
+    font-size: 3rem;
+    margin: 0 auto 1rem auto;
+    line-height: 3.5rem;
+    width: 70%;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+    line-height: 3rem;
+    margin-bottom: 1rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+  }
+
+  .btn-md {
+    padding: 0.4rem 1rem;
+  }
+
+  .btn-lg {
+    height: 2.4rem;
+  }
+
+  .box-lg {
+    height: 3rem;
+    width: 32rem;
+  }
+
+  .bg {
+    height: 684px;
+  }
+
+  .shadow {
+    height: 684px;
+  }
+
+  .tv-section, .mobile-section, .device-section,
+  .kids-section, .faq-section {
+    padding: 4rem 1.8rem;
+  }
+
+  .main-section {
+    padding: 9rem 0;
+  }
+
+  .main-section p {
+    font-size: 1.2rem;
+  }
+
+  .membership p {
+    width: 26rem;
+  }
+
+  .membership form {
+    margin: 0 auto;
+    width: 80%;
+  }
+
+  .membership label {
+    left: 4rem;
+  }
+
+  .texts-tv {
+    position: relative;
+    top: 2rem;
+    z-index: 3;
+  }
+
+  .tv img {
+    margin: 0 auto;
+    width: 98%;
+  }
+
+  .tv video {
+    top: 6rem;
+    left: 5.5rem;
+    width: 72%;
+  }
+
+  .card {
+    bottom: 2.5rem;
+    height: 80px;
+    width: 65%;
+  }
+
+  .card img {
+    width: 50px;
+  }
+
+  .text-card {
+    position: relative;
+    right: 3.5rem;
+  }
+
+  .title {
+    font-size: 0.9rem;
+  }
+
+  .downloading {
+    font-size: 0.8rem;
+  }
+
+  .texts-mobile {
+    position: relative;
+    top: 2rem;
+    z-index: 3;
+  }
+
+  .device img {
+    margin: 0 auto;
+    width: 98%;
+  }
+
+  .device video {
+    top: 3rem;
+    left: 7.4rem;
+    width: 61%;
+  }
+
+  .kids img {
+    margin: 0 auto;
+    width: 98%;
+  }
+
+  .faq h1 {
+    font-size: 2.5rem;
+    width: 100%;
+  }
+
+  .questions {
+    padding: 0 1rem;
+  }
+
+  .questions h3 {
+    padding: 0.7rem 1.5rem;
+  }
+
+  .m-faq label {
+    font-size: 0.9rem;
+    top: 0.9rem;
+    left: 1rem;
+  }
+
+  .m-faq .box-lg {
+    text-indent: 0.9rem;
+  }
+
+  .links ul {
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 0 3rem;
+  }
+
+  .links ul li a {
+    font-size: 0.7rem;
+  }
+
+  .links-1 {
+    order: 1;
+  }
+
+  .links-2 {
+    order: 2;
+  }
+
+  .links-3 {
+    order: 3;
+  }
+
+  .links-4 {
+    order: 4;
+  }
+
+  .links-section p:first-child {
+    font-size: 0.9rem;
+    left: 4.7rem;
+  }
+
+  .links-section p:last-child {
+    font-size: 0.7rem;
+    left: 4.7rem;
+  }
+}
