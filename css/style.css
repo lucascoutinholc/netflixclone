@@ -914,6 +914,11 @@ img, video {
     font-size: 3.4rem;
   }
 
+  header {
+    max-width: 1800px;
+    margin: 0 auto;
+  }
+
   .logo {
     height: auto;
     width: 170px;
@@ -1019,5 +1024,70 @@ img, video {
 
   .links-section p:last-child {
     left: 14.8rem;
+  }
+}
+
+@media only screen and (min-width: 2560px) {
+  h1 {
+    font-size: 4rem;
+    line-height: 4.5rem;
+  }
+
+  .logo {
+    height: auto;
+    width: 200px;
+  }
+
+  .box-lg {
+    width: 32rem;
+  }
+
+  .bg {
+    height: 745px;
+  }
+
+  .shadow {
+    height: 745px;
+  }
+
+  .membership label {
+    left: 9rem;
+  }
+
+  .tv-section {
+    padding: 0 0 2rem 0;
+  }
+
+  .mobile-section {
+    padding: 0 0 2rem 0;
+  }
+
+  .device-section {
+    padding: 1rem 0 1rem 0;
+  }
+
+  .kids-section {
+    padding: 1rem 0;
+  }
+
+  .tv img {
+    height: auto;
+    width: 500px;
+  }
+
+  .device img {
+    width: 500px;
+  }
+
+  .m-faq label {
+    left: 4.3rem;
+  }
+
+  .links-section p:first-child {
+    left: 49.7rem;
+  }
+
+  .links-section p:last-child {
+    left: 49.7rem;
   }
 }
