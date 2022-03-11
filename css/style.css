@@ -21,6 +21,7 @@ body {
   color: white;
   font-family: 'Poppins', sans-serif;
   width: 100%;
+  overflow-x: hidden;
 }
 
 header {
