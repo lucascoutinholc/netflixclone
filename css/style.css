@@ -45,6 +45,10 @@ img, video {
   width: 100%;
 }
 
+.links a:hover {
+  text-decoration: underline;
+}
+
 .logo {
   height: 66px;
   width: 130px;
@@ -346,6 +350,15 @@ img, video {
   position: absolute;
   top: 1rem;
   left: 2.1rem;
+}
+
+.links-section p a {
+  color: var(--gray);
+  text-decoration: none;
+}
+
+.links-section p a:hover {
+  text-decoration: underline;
 }
 
 .links-section p:last-child {
