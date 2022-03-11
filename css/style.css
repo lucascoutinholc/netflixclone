@@ -356,7 +356,6 @@ img, video {
   color: var(--gray);
   position: absolute;
   top: 1rem;
-  left: 2.1rem;
 }
 
 .links-section p a {
@@ -373,7 +372,6 @@ img, video {
   font-size: 0.7rem;
   position: absolute;
   bottom: 1rem;
-  left: 2.1rem;
 }
 
 @media only screen and (min-width: 375px) {
@@ -440,13 +438,8 @@ img, video {
     font-size: 0.8rem;
   }
 
-  .links-section p:first-child {
-    left: 2.6rem;
-  }
-
   .links-section p:last-child {
     font-size: 0.8rem;
-    left: 2.6rem;
   }
 }
 
@@ -497,13 +490,8 @@ img, video {
     font-size: 0.9rem;
   }
 
-  .links-section p:first-child {
-    left: 2.9rem;
-  }
-
   .links-section p:last-child {
     font-size: 0.9rem;
-    left: 2.9rem;
   }
 }
 
@@ -688,12 +676,10 @@ img, video {
 
   .links-section p:first-child {
     font-size: 0.9rem;
-    left: 4.7rem;
   }
 
   .links-section p:last-child {
     font-size: 0.7rem;
-    left: 4.7rem;
   }
 }
 
@@ -919,14 +905,6 @@ img, video {
   .links ul li a {
     font-size: 0.8rem;
   }
-
-  .links-section p:first-child {
-    left: 6.3rem;
-  }
-
-  .links-section p:last-child {
-    left: 6.3rem;
-  }
 }
 
 @media only screen and (min-width: 1440px) {
@@ -1037,14 +1015,6 @@ img, video {
   .links ul {
     grid-gap: 0 9rem;
   }
-
-  .links-section p:first-child {
-    left: 14.8rem;
-  }
-
-  .links-section p:last-child {
-    left: 14.8rem;
-  }
 }
 
 @media only screen and (min-width: 2560px) {
@@ -1101,13 +1071,5 @@ img, video {
 
   .m-faq label {
     left: 4.3rem;
-  }
-
-  .links-section p:first-child {
-    left: 49.7rem;
-  }
-
-  .links-section p:last-child {
-    left: 49.7rem;
   }
 }
