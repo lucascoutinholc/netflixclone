@@ -270,6 +270,10 @@ img, video {
   list-style-type: none;
 }
 
+.questions ul li:hover {
+  cursor: pointer;
+}
+
 .questions h3 {
   background-color: var(--dark-gray);
   display: flex;
@@ -292,11 +296,15 @@ img, video {
 }
 
 .answer {
-  background-color: var(--gray);
+  background-color: var(--dark-gray);
   text-align: left;
   padding: 1rem;
   margin-top: 0.1rem;
   margin-bottom: 0.6rem;
+}
+
+.p2 p:first-child {
+  margin-bottom: 1rem;
 }
 
 .m-faq {
@@ -635,6 +643,10 @@ img, video {
     padding: 0 1rem;
   }
 
+  .closed {
+    max-width: 612px;
+  }
+
   .questions h3 {
     padding: 0.7rem 1.5rem;
   }
@@ -873,6 +885,10 @@ img, video {
     padding: 0;
   }
 
+  .closed {
+    max-width: 676px;
+  }
+
   .questions ul li h3 {
     font-size: 1.5rem;
     padding: 1.2rem 2rem;
@@ -1001,6 +1017,10 @@ img, video {
 
   .faq-section {
     padding: 3rem 0;
+  }
+
+  .closed {
+    min-width: 850px;
   }
 
   .questions ul li h3 {
