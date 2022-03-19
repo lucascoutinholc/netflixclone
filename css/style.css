@@ -651,6 +651,14 @@ img, video {
     padding: 0.7rem 1.5rem;
   }
 
+  .answer {
+    padding: 1.5rem;
+  }
+
+  .answer p {
+    font-size: 1rem;
+  }
+
   .m-faq label {
     font-size: 0.9rem;
     top: 0.9rem;
@@ -883,6 +891,14 @@ img, video {
 
   .questions {
     padding: 0;
+  }
+
+  .answer {
+    padding: 2rem;
+  }
+
+  .answer p {
+    font-size: 1.5rem;
   }
 
   .closed {
