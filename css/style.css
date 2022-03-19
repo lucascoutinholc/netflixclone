@@ -286,13 +286,8 @@ img, video {
   padding: 0.7rem 1rem;
 }
 
-.questions h3::after {
-  display: inline-block;
-  background: url("../img/plus.svg");
-  background-size: 24px 24px;
-  height: 24px;
+.plusImage {
   width: 24px;
-  content: "";
 }
 
 .answer {
@@ -910,9 +905,7 @@ img, video {
     padding: 1.2rem 2rem;
   }
 
-  .questions h3::after {
-    background-size: 38px 38px;
-    height: 38px;
+  .plusImage {
     width: 38px;
   }
 
